@@ -7,12 +7,12 @@ title: MrJelly's Blog
 subtitle:
 description:
 author: Mr.Jelly
-language: zh-Hans
+language: zh-cn
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://MrJelly.coding.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,5 +69,6 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:mrjelly/mrjelly.github.io.git
-  branch: master
+  repository: 
+    github: git@github.com:mrjelly/mrjelly.github.io.git,master
+    coding: git@git.coding.net:mrjelly/mrjelly.git,master
