@@ -79,4 +79,6 @@ theme: hexo-theme-next
 deploy:
   type: git
   repository: 
-    github: git@github.com:mrjelly/mrjelly.github.io.git,master
+    github: git@github.com:mrjelly/mrjelly.github.io.git
+    gitee: https://gitee.com/jellyclub/blog.git
+  branch: master
